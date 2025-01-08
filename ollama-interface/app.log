@@ -1,0 +1,176 @@
+2024-12-06 09:52:31,463 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-06 09:52:31,463 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-12-06 09:52:31,463 - werkzeug - INFO -  * Restarting with stat
+2024-12-06 09:52:31,734 - werkzeug - WARNING -  * Debugger is active!
+2024-12-06 09:52:31,734 - werkzeug - INFO -  * Debugger PIN: 837-724-115
+2024-12-06 09:53:03,180 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2024 09:53:03] "GET / HTTP/1.1" 200 -
+2024-12-06 09:53:03,452 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2024 09:53:03] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-12-06 09:54:21,898 - __main__ - ERROR - Ollama API error: 404 - {"error":"model 'qwen2.5-coder' not found"}
+2024-12-06 09:54:21,898 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2024 09:54:21] "POST /generate HTTP/1.1" 200 -
+2024-12-06 10:04:22,244 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-06 10:04:22,244 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-12-06 10:04:22,245 - werkzeug - INFO -  * Restarting with stat
+2024-12-06 10:04:22,513 - werkzeug - WARNING -  * Debugger is active!
+2024-12-06 10:04:22,513 - werkzeug - INFO -  * Debugger PIN: 837-724-115
+2024-12-06 10:04:33,726 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2024 10:04:33] "GET / HTTP/1.1" 200 -
+2024-12-06 10:05:08,123 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2024 10:05:08] "POST /generate HTTP/1.1" 200 -
+2024-12-06 10:05:29,492 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2024 10:05:29] "[33mGET /{{%20url_for('static',%20filename='style.css')%20}} HTTP/1.1[0m" 404 -
+2024-12-06 10:05:29,823 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2024 10:05:29] "[33mGET /{{%20url_for('static',%20filename='style.css')%20}} HTTP/1.1[0m" 404 -
+2024-12-06 10:05:30,155 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2024 10:05:30] "[33mGET /{{%20url_for('static',%20filename='style.css')%20}} HTTP/1.1[0m" 404 -
+2024-12-06 10:05:30,485 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2024 10:05:30] "[33mGET /{{%20url_for('static',%20filename='style.css')%20}} HTTP/1.1[0m" 404 -
+2024-12-06 10:08:48,784 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-06 10:08:48,784 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-12-06 10:08:48,784 - werkzeug - INFO -  * Restarting with stat
+2024-12-06 10:08:49,056 - werkzeug - WARNING -  * Debugger is active!
+2024-12-06 10:08:49,056 - werkzeug - INFO -  * Debugger PIN: 837-724-115
+2024-12-06 10:08:56,882 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2024 10:08:56] "GET / HTTP/1.1" 200 -
+2024-12-06 10:10:11,827 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2024 10:10:11] "POST /generate HTTP/1.1" 200 -
+2024-12-06 10:10:28,581 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2024 10:10:28] "[33mGET /{{%20url_for('static',%20filename='styles.css')%20}} HTTP/1.1[0m" 404 -
+2024-12-06 10:10:28,908 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2024 10:10:28] "[33mGET /{{%20url_for('static',%20filename='styles.css')%20}} HTTP/1.1[0m" 404 -
+2024-12-06 10:10:29,236 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2024 10:10:29] "[33mGET /{{%20url_for('static',%20filename='styles.css')%20}} HTTP/1.1[0m" 404 -
+2024-12-06 10:10:29,565 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2024 10:10:29] "[33mGET /{{%20url_for('static',%20filename='styles.css')%20}} HTTP/1.1[0m" 404 -
+2024-12-06 10:27:17,803 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2024 10:27:17] "POST /generate HTTP/1.1" 200 -
+2024-12-06 10:30:20,221 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2024 10:30:20] "POST /generate HTTP/1.1" 200 -
+2024-12-06 10:30:23,393 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2024 10:30:23] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+2024-12-06 10:30:23,720 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2024 10:30:23] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+2024-12-06 10:30:24,041 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2024 10:30:24] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+2024-12-06 10:30:24,361 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2024 10:30:24] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+2024-12-06 10:30:24,687 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2024 10:30:24] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+2024-12-06 10:30:25,007 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2024 10:30:25] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+2024-12-06 10:30:25,354 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2024 10:30:25] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+2024-12-06 10:30:25,525 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2024 10:30:25] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+2024-12-06 10:30:25,675 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2024 10:30:25] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+2024-12-06 10:30:25,846 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2024 10:30:25] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+2024-12-06 10:30:25,991 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2024 10:30:25] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+2024-12-06 10:30:26,169 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2024 10:30:26] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+2024-12-06 10:30:26,332 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2024 10:30:26] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+2024-12-06 10:30:26,494 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2024 10:30:26] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+2024-12-06 10:30:26,661 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2024 10:30:26] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+2024-12-06 10:30:26,812 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2024 10:30:26] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+2024-12-06 10:30:27,014 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2024 10:30:27] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+2024-12-06 10:30:27,134 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2024 10:30:27] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+2024-12-06 10:30:27,341 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2024 10:30:27] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+2024-12-06 10:30:27,497 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2024 10:30:27] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+2024-12-06 10:30:27,666 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2024 10:30:27] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+2024-12-06 10:30:27,812 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2024 10:30:27] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+2024-12-06 10:30:27,979 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2024 10:30:27] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+2024-12-06 10:30:28,129 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2024 10:30:28] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+2024-12-06 10:30:28,304 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2024 10:30:28] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+2024-12-06 18:17:46,828 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-06 18:17:46,828 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-12-06 18:17:46,843 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2024-12-06 18:17:47,082 - werkzeug - WARNING -  * Debugger is active!
+2024-12-06 18:17:47,104 - werkzeug - INFO -  * Debugger PIN: 837-724-115
+2024-12-06 18:18:12,206 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2024 18:18:12] "GET / HTTP/1.1" 200 -
+2024-12-06 18:18:12,354 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2024 18:18:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-12-06 18:19:14,932 - __main__ - ERROR - Request error: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000281328715B0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2024-12-06 18:19:14,932 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2024 18:19:14] "POST /generate HTTP/1.1" 200 -
+2024-12-06 18:20:39,450 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2024 18:20:39] "GET / HTTP/1.1" 200 -
+2024-12-06 18:20:39,595 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2024 18:20:39] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-12-06 18:21:23,104 - __main__ - ERROR - Request error: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000028132819AF0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2024-12-06 18:21:23,106 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2024 18:21:23] "POST /generate HTTP/1.1" 200 -
+2024-12-06 18:25:56,248 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-06 18:25:56,248 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-12-06 18:25:56,252 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2024-12-06 18:25:56,506 - werkzeug - WARNING -  * Debugger is active!
+2024-12-06 18:25:56,507 - werkzeug - INFO -  * Debugger PIN: 837-724-115
+2024-12-06 18:26:26,889 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2024 18:26:26] "GET / HTTP/1.1" 200 -
+2024-12-06 18:26:27,163 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2024 18:26:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-12-06 18:27:32,816 - werkzeug - INFO - 127.0.0.1 - - [06/Dec/2024 18:27:32] "POST /generate HTTP/1.1" 200 -
+2024-12-07 18:08:11,024 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-07 18:08:11,024 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-12-07 18:08:11,026 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2024-12-07 18:08:11,276 - werkzeug - WARNING -  * Debugger is active!
+2024-12-07 18:08:11,290 - werkzeug - INFO -  * Debugger PIN: 837-724-115
+2024-12-07 18:08:48,756 - werkzeug - INFO - 127.0.0.1 - - [07/Dec/2024 18:08:48] "GET / HTTP/1.1" 200 -
+2024-12-07 18:08:48,910 - werkzeug - INFO - 127.0.0.1 - - [07/Dec/2024 18:08:48] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-12-07 18:12:16,194 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-07 18:12:16,194 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-12-07 18:12:16,199 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2024-12-07 18:12:16,445 - werkzeug - WARNING -  * Debugger is active!
+2024-12-07 18:12:16,450 - werkzeug - INFO -  * Debugger PIN: 837-724-115
+2024-12-07 18:12:38,048 - werkzeug - INFO - 127.0.0.1 - - [07/Dec/2024 18:12:38] "GET / HTTP/1.1" 200 -
+2024-12-07 18:12:38,204 - werkzeug - INFO - 127.0.0.1 - - [07/Dec/2024 18:12:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-12-07 18:13:26,137 - werkzeug - INFO -  * Detected change in 'C:\\Python312\\Lib\\netrc.py', reloading
+2024-12-07 18:13:26,645 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2024-12-07 18:13:26,911 - werkzeug - WARNING -  * Debugger is active!
+2024-12-07 18:13:26,913 - werkzeug - INFO -  * Debugger PIN: 837-724-115
+2024-12-07 18:13:31,013 - __main__ - ERROR - Request error: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000025FEE8308C0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2024-12-07 18:13:31,013 - werkzeug - INFO - 127.0.0.1 - - [07/Dec/2024 18:13:31] "POST /generate HTTP/1.1" 200 -
+2024-12-07 18:14:14,909 - werkzeug - INFO - 127.0.0.1 - - [07/Dec/2024 18:14:14] "GET / HTTP/1.1" 200 -
+2024-12-07 18:14:53,099 - werkzeug - INFO - 127.0.0.1 - - [07/Dec/2024 18:14:53] "POST /generate HTTP/1.1" 200 -
+2024-12-07 18:26:01,955 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-07 18:26:01,956 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-12-07 18:26:01,959 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2024-12-07 18:26:02,211 - werkzeug - WARNING -  * Debugger is active!
+2024-12-07 18:26:02,226 - werkzeug - INFO -  * Debugger PIN: 837-724-115
+2024-12-07 18:26:19,781 - werkzeug - INFO - 127.0.0.1 - - [07/Dec/2024 18:26:19] "GET / HTTP/1.1" 200 -
+2024-12-07 18:26:19,934 - werkzeug - INFO - 127.0.0.1 - - [07/Dec/2024 18:26:19] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-12-07 18:29:16,106 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-07 18:29:16,106 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-12-07 18:29:16,111 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2024-12-07 18:29:16,377 - werkzeug - WARNING -  * Debugger is active!
+2024-12-07 18:29:16,379 - werkzeug - INFO -  * Debugger PIN: 837-724-115
+2024-12-07 18:29:59,568 - werkzeug - INFO - 127.0.0.1 - - [07/Dec/2024 18:29:59] "[33mGET /about HTTP/1.1[0m" 404 -
+2024-12-07 18:29:59,683 - werkzeug - INFO - 127.0.0.1 - - [07/Dec/2024 18:29:59] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-12-07 18:30:09,470 - werkzeug - INFO - 127.0.0.1 - - [07/Dec/2024 18:30:09] "GET / HTTP/1.1" 200 -
+2024-12-07 18:35:14,177 - werkzeug - INFO -  * Detected change in 'C:\\Python312\\Lib\\encodings\\unicode_escape.py', reloading
+2024-12-07 18:35:14,182 - werkzeug - INFO - 127.0.0.1 - - [07/Dec/2024 18:35:14] "GET / HTTP/1.1" 200 -
+2024-12-07 18:35:14,281 - werkzeug - INFO - 127.0.0.1 - - [07/Dec/2024 18:35:14] "GET /static/styles.css HTTP/1.1" 200 -
+2024-12-07 18:35:14,715 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2024-12-07 18:35:14,971 - werkzeug - WARNING -  * Debugger is active!
+2024-12-07 18:35:14,975 - werkzeug - INFO -  * Debugger PIN: 837-724-115
+2024-12-07 18:39:03,538 - __main__ - ERROR - Request error: HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/generate (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002386FBFF7A0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2024-12-07 18:39:03,542 - werkzeug - INFO - 127.0.0.1 - - [07/Dec/2024 18:39:03] "POST /generate HTTP/1.1" 200 -
+2024-12-07 18:39:53,522 - werkzeug - INFO - 127.0.0.1 - - [07/Dec/2024 18:39:53] "GET / HTTP/1.1" 200 -
+2024-12-07 18:39:53,953 - werkzeug - INFO - 127.0.0.1 - - [07/Dec/2024 18:39:53] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-12-07 18:42:22,615 - werkzeug - INFO - 127.0.0.1 - - [07/Dec/2024 18:42:22] "POST /generate HTTP/1.1" 200 -
+2024-12-07 18:42:52,969 - werkzeug - INFO - 127.0.0.1 - - [07/Dec/2024 18:42:52] "[33mGET /{{%20url_for('static',%20filename='styles.css')%20}} HTTP/1.1[0m" 404 -
+2024-12-07 18:42:53,332 - werkzeug - INFO - 127.0.0.1 - - [07/Dec/2024 18:42:53] "[33mGET /{{%20url_for('static',%20filename='styles.css')%20}} HTTP/1.1[0m" 404 -
+2024-12-07 18:42:53,690 - werkzeug - INFO - 127.0.0.1 - - [07/Dec/2024 18:42:53] "[33mGET /{{%20url_for('static',%20filename='styles.css')%20}} HTTP/1.1[0m" 404 -
+2024-12-07 18:42:54,018 - werkzeug - INFO - 127.0.0.1 - - [07/Dec/2024 18:42:54] "[33mGET /{{%20url_for('static',%20filename='styles.css')%20}} HTTP/1.1[0m" 404 -
+2024-12-07 18:42:54,360 - werkzeug - INFO - 127.0.0.1 - - [07/Dec/2024 18:42:54] "[33mGET /{{%20url_for('static',%20filename='styles.css')%20}} HTTP/1.1[0m" 404 -
+2024-12-07 18:42:54,704 - werkzeug - INFO - 127.0.0.1 - - [07/Dec/2024 18:42:54] "[33mGET /{{%20url_for('static',%20filename='styles.css')%20}} HTTP/1.1[0m" 404 -
+2024-12-07 18:42:55,045 - werkzeug - INFO - 127.0.0.1 - - [07/Dec/2024 18:42:55] "[33mGET /{{%20url_for('static',%20filename='styles.css')%20}} HTTP/1.1[0m" 404 -
+2024-12-07 18:42:55,383 - werkzeug - INFO - 127.0.0.1 - - [07/Dec/2024 18:42:55] "[33mGET /{{%20url_for('static',%20filename='styles.css')%20}} HTTP/1.1[0m" 404 -
+2024-12-07 18:42:55,727 - werkzeug - INFO - 127.0.0.1 - - [07/Dec/2024 18:42:55] "[33mGET /{{%20url_for('static',%20filename='styles.css')%20}} HTTP/1.1[0m" 404 -
+2024-12-07 18:42:56,064 - werkzeug - INFO - 127.0.0.1 - - [07/Dec/2024 18:42:56] "[33mGET /{{%20url_for('static',%20filename='styles.css')%20}} HTTP/1.1[0m" 404 -
+2024-12-07 18:42:56,396 - werkzeug - INFO - 127.0.0.1 - - [07/Dec/2024 18:42:56] "[33mGET /{{%20url_for('static',%20filename='styles.css')%20}} HTTP/1.1[0m" 404 -
+2024-12-07 18:42:56,747 - werkzeug - INFO - 127.0.0.1 - - [07/Dec/2024 18:42:56] "[33mGET /{{%20url_for('static',%20filename='styles.css')%20}} HTTP/1.1[0m" 404 -
+2024-12-07 18:42:57,091 - werkzeug - INFO - 127.0.0.1 - - [07/Dec/2024 18:42:57] "[33mGET /{{%20url_for('static',%20filename='styles.css')%20}} HTTP/1.1[0m" 404 -
+2024-12-07 18:42:57,431 - werkzeug - INFO - 127.0.0.1 - - [07/Dec/2024 18:42:57] "[33mGET /{{%20url_for('static',%20filename='styles.css')%20}} HTTP/1.1[0m" 404 -
+2024-12-07 18:42:57,751 - werkzeug - INFO - 127.0.0.1 - - [07/Dec/2024 18:42:57] "[33mGET /{{%20url_for('static',%20filename='styles.css')%20}} HTTP/1.1[0m" 404 -
+2024-12-07 18:42:58,107 - werkzeug - INFO - 127.0.0.1 - - [07/Dec/2024 18:42:58] "[33mGET /{{%20url_for('static',%20filename='styles.css')%20}} HTTP/1.1[0m" 404 -
+2024-12-07 18:42:58,435 - werkzeug - INFO - 127.0.0.1 - - [07/Dec/2024 18:42:58] "[33mGET /{{%20url_for('static',%20filename='styles.css')%20}} HTTP/1.1[0m" 404 -
+2024-12-07 18:42:58,769 - werkzeug - INFO - 127.0.0.1 - - [07/Dec/2024 18:42:58] "[33mGET /{{%20url_for('static',%20filename='styles.css')%20}} HTTP/1.1[0m" 404 -
+2024-12-07 18:42:59,134 - werkzeug - INFO - 127.0.0.1 - - [07/Dec/2024 18:42:59] "[33mGET /{{%20url_for('static',%20filename='styles.css')%20}} HTTP/1.1[0m" 404 -
+2025-01-08 08:06:59,777 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-08 08:06:59,777 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-01-08 08:06:59,786 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-01-08 08:07:00,280 - werkzeug - WARNING -  * Debugger is active!
+2025-01-08 08:07:00,283 - werkzeug - INFO -  * Debugger PIN: 837-724-115
+2025-01-08 08:07:56,148 - werkzeug - INFO - 127.0.0.1 - - [08/Jan/2025 08:07:56] "GET / HTTP/1.1" 200 -
+2025-01-08 08:07:56,148 - werkzeug - INFO -  * Detected change in 'C:\\Python312\\Lib\\encodings\\unicode_escape.py', reloading
+2025-01-08 08:07:56,290 - werkzeug - INFO - 127.0.0.1 - - [08/Jan/2025 08:07:56] "GET /static/styles.css HTTP/1.1" 200 -
+2025-01-08 08:07:56,401 - werkzeug - INFO - 127.0.0.1 - - [08/Jan/2025 08:07:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-08 08:07:56,783 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-01-08 08:07:57,290 - werkzeug - WARNING -  * Debugger is active!
+2025-01-08 08:07:57,300 - werkzeug - INFO -  * Debugger PIN: 837-724-115
+2025-01-08 08:09:29,278 - werkzeug - INFO -  * Detected change in 'C:\\Python312\\Lib\\netrc.py', reloading
+2025-01-08 08:09:30,201 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-01-08 08:09:30,719 - werkzeug - WARNING -  * Debugger is active!
+2025-01-08 08:09:30,724 - werkzeug - INFO -  * Debugger PIN: 837-724-115
+2025-01-08 08:12:37,561 - werkzeug - INFO - 127.0.0.1 - - [08/Jan/2025 08:12:37] "GET / HTTP/1.1" 200 -
+2025-01-08 08:12:37,627 - werkzeug - INFO - 127.0.0.1 - - [08/Jan/2025 08:12:37] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-01-08 08:13:45,300 - werkzeug - INFO - 127.0.0.1 - - [08/Jan/2025 08:13:45] "POST /generate HTTP/1.1" 200 -
+2025-01-08 08:17:03,787 - werkzeug - INFO - 127.0.0.1 - - [08/Jan/2025 08:17:03] "POST /generate HTTP/1.1" 200 -

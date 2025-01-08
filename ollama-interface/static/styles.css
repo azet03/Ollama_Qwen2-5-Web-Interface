@@ -1,0 +1,123 @@
+/* Base styles */
+:root {
+    --max-width: 1200px;
+    --padding: 1rem;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-color: #f3f4f6;
+}
+
+.container {
+    width: 100%;
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: var(--padding);
+    box-sizing: border-box;
+}
+
+.chat-interface {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    max-height: calc(100vh - 2rem);
+    gap: 1rem;
+}
+
+.chat-container {
+    flex: 1;
+    min-height: 200px;
+    max-height: calc(100vh - 250px);
+    overflow-y: auto;
+    background-color: #ffffff;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.response-area {
+    white-space: pre-wrap;
+    font-family: monospace;
+    font-size: 0.875rem;
+    line-height: 1.5;
+}
+
+.input-section {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+#prompt {
+    flex: 1;
+    min-height: 100px;
+    padding: 0.75rem;
+    border: 1px solid #e5e7eb;
+    border-radius: 0.375rem;
+    resize: vertical;
+}
+
+#submit {
+    padding: 0.75rem 1.5rem;
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 0.375rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+#submit:hover {
+    background-color: #1d4ed8;
+}
+
+#submit:disabled {
+    background-color: #93c5fd;
+    cursor: not-allowed;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 0.5rem;
+    }
+
+    .chat-interface {
+        gap: 0.5rem;
+    }
+
+    .input-section {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    #prompt {
+        min-height: 80px;
+    }
+
+    #submit {
+        width: 100%;
+    }
+}
+
+/* Custom scrollbar */
+.chat-container::-webkit-scrollbar {
+    width: 8px;
+}
+
+.chat-container::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 4px;
+}
+
+.chat-container::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+}
+
+.chat-container::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ollama Qwen2.5-coder Interface</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/themes/prism-tomorrow.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/plugins/line-numbers/prism-line-numbers.min.css" rel="stylesheet">
+    <link href="{{ url_for('static', filename='styles.css') }}" rel="stylesheet">
+</head>
+<body>
+    <div class="container mx-auto px-4 py-4 sm:py-8 max-w-4xl">
+        <div class="chat-interface bg-white rounded-lg shadow-lg p-4 sm:p-6">
+            <h1 class="text-3xl font-bold text-center text-gray-800">Ollama Qwen2.5-coder Interface</h1>
+            
+            <div class="chat-container overflow-y-auto mb-4 sm:mb-6 bg-gray-50 rounded p-3 sm:p-4">
+                <div id="response" class="response-area font-mono text-sm"></div>
+            </div>
+            
+            <div class="input-section flex flex-col sm:flex-row sm:space-x-4">
+                <textarea 
+                    id="prompt" 
+                    class="flex-1 p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400 mb-4 sm:mb-0"
+                    placeholder="Enter your prompt here..."
+                    rows="4"
+                ></textarea>
+                <button 
+                    id="submit" 
+                    class="px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 transition-colors duration-200"
+                >
+                    Generate
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/plugins/line-numbers/prism-line-numbers.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/4.0.2/marked.min.js"></script>
+    
+    <script>
+        const promptInput = document.getElementById('prompt');
+        const submitButton = document.getElementById('submit');
+        const responseDiv = document.getElementById('response');
+
+        let currentResponse = '';
+
+        async function generateResponse() {
+            const prompt = promptInput.value;
+            if (!prompt) return;
+
+            submitButton.disabled = true;
+            currentResponse = '';
+            responseDiv.innerHTML = '';
+
+            try {
+                const response = await fetch('/generate', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ prompt }),
+                });
+
+                const reader = response.body.getReader();
+                const decoder = new TextDecoder();
+
+                while (true) {
+                    const { value, done } = await reader.read();
+                    if (done) break;
+                    
+                    const text = decoder.decode(value);
+                    currentResponse += text;
+                    
+                    // Convert markdown to HTML and apply syntax highlighting
+                    const htmlContent = marked.parse(currentResponse);
+                    responseDiv.innerHTML = htmlContent;
+                    
+                    // Apply syntax highlighting to code blocks
+                    Prism.highlightAll();
+                    
+                    // Auto-scroll to bottom
+                    responseDiv.scrollTop = responseDiv.scrollHeight;
+                }
+            } catch (error) {
+                console.error('Error:', error);
+                responseDiv.innerHTML += '\nError: Failed to generate response.';
+            } finally {
+                submitButton.disabled = false;
+            }
+        }
+
+        submitButton.addEventListener('click', generateResponse);
+        promptInput.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter' && e.ctrlKey) {
+                e.preventDefault();
+                generateResponse();
+            }
+        });
+    </script>
+</body>
+</html>
