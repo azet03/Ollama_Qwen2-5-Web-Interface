@@ -99,8 +99,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - The Qwen team for their excellent language model
 - All contributors who help improve this project
 
-## 📫 Contact
-
-For questions, suggestions, or issues:
-- Create an issue in the GitHub repository
-- Contact the maintainer through GitHub
